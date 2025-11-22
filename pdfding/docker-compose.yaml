@@ -3,7 +3,7 @@ version: "3"
 services:
   pdfding:
     container_name: pdfding
-    image: mrmn/pdfding:v1.2.1
+    image: mrmn/pdfding:v1.4.1
     volumes:
       - sqlite_data:/home/nonroot/pdfding/db
       - media:/home/nonroot/pdfding/media
